@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -9,13 +8,14 @@
  * Return: 0
 */
 int main(void)
-}
+{
 	int n;
 	int lastD;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastD = n % 10;
+
 	if (lastD > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	else if (lastD == 0)

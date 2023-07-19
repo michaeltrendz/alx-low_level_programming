@@ -1,6 +1,10 @@
+#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
+
 /**
- * print_alphabet - Entry point here
- * Return: Always 0
+ * print_alphabet - Entry point
+ * Return:0
  */
 
 void print_alphabet(void)

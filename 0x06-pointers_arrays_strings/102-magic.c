@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/*
+ * main - where entryy start
+ * Return: 0
+*/
 int main(void)
 {
 int n;
